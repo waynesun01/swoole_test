@@ -1,0 +1,15 @@
+{
+    "name": "waynesun01/swooletest",
+    "description": "create swoole server",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "waynesun",
+            "email": "waynesun01@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    }
+}
