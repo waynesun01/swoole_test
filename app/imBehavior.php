@@ -77,6 +77,12 @@ class imBehavior extends \library\wsBehavior {
         var_dump(array('ontask',$task_id,$from_id,$data));
     }
     
+    /**
+     *  need
+     * @param type $serv
+     * @param type $task_id
+     * @param type $data
+     */
     public function onFinish($serv, $task_id, $data) {
         //parent::onFinish($serv, $task_id, $data);
     }
