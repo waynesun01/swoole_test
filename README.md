@@ -1,12 +1,14 @@
-# swooletest
+# swoole_test
+完善中
 方便快速创建基于swoole的服务
-##用法
+
+## 用法
 * app中新建具体behavior类，该类根据要使用的service(tcp,http,websocket)继承自相应的behavior
 * 在运行脚本中指定要使用的behavior
 > 使用完整命名空间路径
 * 初始化相应的service;
 * 运行
-##example
+## example
 ```php
 define('BASEDIR', __DIR__);
 include BASEDIR . '/autoload.php'; //可自定义
