@@ -1,14 +1,8 @@
 <?php
 namespace app;
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  * Description of imBehavior
- *
+ * 该文件为实现具体行为的的方法，继承自相应service的行为类
  * @author WayneSun
  */
 class imBehavior extends \library\wsBehavior {
