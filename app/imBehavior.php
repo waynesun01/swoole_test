@@ -65,6 +65,13 @@ class imBehavior extends \library\wsBehavior {
 //        common::initService($worker_id, $serv);
     }
     
+    /**
+     * onTask需要在配置中增加task_worker_num配置，否则会报错
+     * @param type $server
+     * @param type $task_id
+     * @param type $from_id
+     * @param type $data
+     */
     public function onTask($server, $task_id, $from_id, $data) {
         //parent::onTask($server, $task_id, $from_id, $data);
         var_dump(array('ontask',$task_id,$from_id,$data));
