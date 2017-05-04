@@ -10,8 +10,9 @@
 * 运行
 ## example
 ```php
-//define('BASEDIR', __DIR__);
-require 'vendor/autoload.php'; //可自定义
+define('BASEDIR', __DIR__);
+require 'autoload.php';//也可通过require引入行为类文件
+require 'vendor/autoload.php';
 $config = [
     'Host'=>'0.0.0.0',
     'Port'=>9501,
@@ -21,6 +22,7 @@ $config = [
         'task_worker_num'=>4,
     ]
 ];
+//require 'app/imBehavior.php';//也可以自定义自动载入文件来加载具体行为类
 $ws = new waynesun\swoole\wsService($config); //初始化服务
 $ws->start();
 ```
