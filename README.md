@@ -10,8 +10,8 @@
 * 运行
 ## example
 ```php
-define('BASEDIR', __DIR__);
-include BASEDIR . '/autoload.php'; //可自定义
+//define('BASEDIR', __DIR__);
+require 'vendor/autoload.php'; //可自定义
 $config = [
     'Host'=>'0.0.0.0',
     'Port'=>9501,
@@ -21,6 +21,6 @@ $config = [
         'task_worker_num'=>4,
     ]
 ];
-$ws = new \library\wsService($config); //初始化服务
+$ws = new waynesun\swoole\wsService($config); //初始化服务
 $ws->start();
 ```
