@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-namespace library;
+namespace waynesun\swoole;
 
 /**
  * Description of wsBehavior
