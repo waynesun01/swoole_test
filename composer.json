@@ -14,7 +14,7 @@
     },
 	"autoload":{
 		"psr-4":{
-			"swooleServer\\":"library"
+			"waynesun\\swoole\\":"library"
 		}
 	}
 }
