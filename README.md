@@ -1,7 +1,8 @@
 # swoole_test
 完善中
 方便快速创建基于swoole的服务
-
+## 配置
+需要php.ini中开启swoole.use_namespace，使用命名空间
 ## 用法
 * app中新建具体behavior类，该类根据要使用的service(tcp,http,websocket)继承自相应的behavior
 * 在运行脚本中指定要使用的behavior
